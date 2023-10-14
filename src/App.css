@@ -1,0 +1,18 @@
+.cntainer{
+   width: 100%;
+    height: 100vh;
+    background-color:#172D13;
+    position: relative;
+    overflow:hidden;
+}
+@media(max-width:700px){
+    .cntainer{
+        background-color:#172D13;
+        position: relative;
+        
+       overflow: scroll;
+    }
+    
+    
+    
+    }

@@ -1,0 +1,31 @@
+.debt2{
+    display: flex;
+    justify-content:center;
+    color: white;
+    background-color: #6BB77B;
+    width: 100%;
+    border-radius: 9px;
+    margin-top: 4px;
+    align-items: center;
+}
+.debt2 h3{
+    width: 60%;
+    text-align: center;
+}
+.debt2 h2{
+width: 20%;
+text-align: center;
+
+
+}
+.debt2 i:hover{
+    cursor:pointer;
+}
+.akhiri{
+    margin-top: 5px;
+    text-align: center;
+    width:100%;
+    height: 43px;
+    color: #6BB77B;
+    font-size: 3rem;
+}

@@ -1,0 +1,21 @@
+.black{
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#19d25a;
+    color:white;
+    border-radius: 6px;
+    margin:11px;
+    width: 80%;
+   
+}
+.black h2{
+    color:white;
+    margin: 8px;
+    width: 50%;
+}
+.black p{
+margin: 6px;
+width: 78px;
+}

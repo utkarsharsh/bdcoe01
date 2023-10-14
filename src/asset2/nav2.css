@@ -1,0 +1,22 @@
+.head1{
+    background-color:#172D13;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+border-radius: 12px;
+margin-top: 2px;
+
+
+height:8%;
+position: relative;
+}
+.image1{
+    
+    width: 132px;
+    height: 123px;
+}
+.nav1 p{
+    font-style: bold;
+    font-size: 2.5rem;
+}

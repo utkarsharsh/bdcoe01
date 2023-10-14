@@ -1,0 +1,10 @@
+.tablegrup:hover{
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    background-color: rgb(88, 223, 88);
+    transform: scale(1.02);
+
+}
+.tablegrup{
+    border-radius: 12px;
+}

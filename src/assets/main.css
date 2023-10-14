@@ -1,0 +1,162 @@
+.setter{
+    background-color:#6BB77B;
+    
+    border-radius: 18px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction:column;
+
+   box-shadow: 5px 5px 10px #b3ecbf;
+}
+
+ h1{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    color: white;
+
+
+}
+.entry{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.entry label{
+    margin-left: 5px;
+    color: white;
+}
+.entry input{
+    border-radius: 12px;
+    margin: 12px 12px;
+    outline: none;
+    text-decoration: #6BB77B;
+   height: 18px;
+    border-style: none;
+
+
+}
+
+.nogrupnamer{
+    display: none;
+}
+.grupnamer{
+    display: block;
+}
+.nocreategrup{
+    display: none;
+}
+.creategrup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.creategrup button{
+    border-radius: 12px;
+    text-decoration: none;
+    outline: none;
+    width: 260px;
+    background-color: #6BB77B;
+    color: white;
+    height: 40px;
+    font-size:1.5rem ;
+    
+   border: none;
+
+}
+.creategrup button:hover{
+    cursor: pointer;
+
+}
+
+
+.btn1{
+    margin: 15px;
+}
+
+.btn1 button{
+    background-color:  white;;
+    color: white;
+    border: none;
+    height: 23px;
+
+}
+
+.btn1 button:hover{
+    cursor: pointer;
+}
+.cut{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 6px;
+
+}
+.cut i{
+    border-radius: 50%;
+    background-color:#6BB77B ;
+    color:white;
+    width: 23px;
+    height: 22px;
+    text-align: center;
+
+    
+
+}
+.cut i:hover{
+    cursor: pointer;
+
+
+}
+.setterwrap{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.container{height:70%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    }
+@media(max-width:700px){
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   height:  fit-content ;
+}
+.setterwrap{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 23px;
+    
+}
+h1{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: white;
+
+
+}
+.entry{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+}

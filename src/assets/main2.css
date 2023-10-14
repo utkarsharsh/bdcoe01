@@ -1,0 +1,25 @@
+.contain{
+    width:60% ;
+    height: 100%;
+    
+}
+.heading{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+font-size: 3rem;
+font-family:serif;
+text-shadow: 2px 2px 5px #6BB77B ;
+
+}
+.heading p{
+    margin-top: 27px;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px 3px #6BB77B;
+}

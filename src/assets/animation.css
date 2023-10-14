@@ -1,0 +1,84 @@
+.animation{
+    
+    position: relative;
+    width: 100%;
+    height: 10%;
+    
+    
+
+}
+.ani{
+    position: absolute;
+    animation-name: utkarsh;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+    
+}
+.ani img{
+    position: absolute;
+   
+ 
+    height: 55px;
+    width: 55px;
+}
+@keyframes utkarsh{
+0%{
+    left:0%;
+    transform: rotate(0deg);
+}
+100%{
+left:100%;
+transform: rotate(360deg);
+}
+
+}
+@media(max-width:700px){
+
+.animation{
+    display: flex;
+   justify-content: center;
+    width: 100%;
+    height: 72px;
+align-items: center;
+    
+}
+
+
+
+
+    .ani{
+        display: flex;
+      
+       
+        
+    }
+    .ani img{
+        position: absolute;
+       
+        animation-name: utkarsh;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        transition: ease-in-out;
+        height: 35px;
+        width: 35px;
+    }
+    @keyframes utkarsh{
+    0%{
+        left:0%;
+        
+    }
+    100%{
+    left:100%;
+ 
+    }
+    
+   
+    }
+    
+   
+
+    
+    
+    
+    }

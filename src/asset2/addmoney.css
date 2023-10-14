@@ -1,0 +1,73 @@
+.moneyinput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6BB77B;
+       margin-top: 6px;
+       width: 264px;
+       height: 200px;
+       border-radius: 8px;
+       gap: 6px;
+   }
+   .moneyinput input {
+   border-radius: 4px;
+   border-style:none ;
+   color: grey;
+   width: 80%;
+   height: 26px;
+   background-color: aliceblue;
+   margin-top: 19px;
+   outline: none;
+   
+   
+   
+   
+   
+   }
+   .moneyinput button{
+       border-radius: 20px;
+       width: 60%;
+       height: 34px;
+   border-style: none;
+   
+   
+       margin-top: 9px;
+   
+   }
+   .moneyinput button:hover{
+       cursor: pointer;
+       transition: ease-in-out 0.6s;
+       transform: scale(1.08);
+   }
+   .transdata{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   }
+   .transdata button{
+    border-radius: 20px;
+    width: 60%;
+    height: 34px;
+border-style: none;
+
+background-color:#172D13;
+    margin-top: 9px;
+    color: white;
+   }
+   .nomoneyinput{
+    display: none;
+   }
+   .transitionvalue{
+    margin-top: 3px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6BB77B;
+    border-radius: 8px;
+    color:white;
+    width: 110%;
+    height: 50px;
+
+   }

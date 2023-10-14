@@ -1,0 +1,24 @@
+.head{
+    background-color:#172D13;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+border-radius: 12px;
+margin-top: 2px;
+margin-left: 12px;
+margin-right: 12px;
+height:15%;
+position: relative;
+}
+.image{
+    
+    width: 132px;
+    height: 123px;
+}
+.nav p{
+    font-style: bold;
+    font-size: 2.5rem;
+}
+
+
