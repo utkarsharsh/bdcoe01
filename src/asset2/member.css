@@ -16,6 +16,21 @@
     width: 50%;
 }
 .black p{
+    width: 23%;
 margin: 6px;
-width: 78px;
+
+}
+@media(max-width:550px){
+    .black{
+        width: 98%;
+
+    }
+    .black p{
+        width: 45%;
+    margin: 6px;
+    text-align: center;
+    
+    }
+
+
 }

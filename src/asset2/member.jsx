@@ -10,8 +10,8 @@ return(
     <>
     <div className="black">
         <h2  >{w.name}</h2>
-        <p>{w.money} Rs</p>
-        <p>{w.date}</p>
+        <p>{w.money} Rs  <br />  {w.date}</p>
+      
     </div>
     
     </>

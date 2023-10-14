@@ -1,7 +1,8 @@
 .debt2{
     display: flex;
-    justify-content:center;
+    justify-content:space-evenly;
     color: white;
+
     background-color: #6BB77B;
     width: 100%;
     border-radius: 9px;
@@ -9,18 +10,16 @@
     align-items: center;
 }
 .debt2 h3{
-    width: 60%;
+    width: 57%;
     text-align: center;
 }
 .debt2 h2{
-width: 20%;
+width: 33%;
 text-align: center;
 
 
 }
-.debt2 i:hover{
-    cursor:pointer;
-}
+
 .akhiri{
     margin-top: 5px;
     text-align: center;
