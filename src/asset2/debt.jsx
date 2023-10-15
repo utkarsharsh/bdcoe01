@@ -17,7 +17,7 @@ function Debt(e){
     }
     else{
         // setcheck(check+1); 
-        check++
+        check++;
     }
 
 

@@ -9,10 +9,22 @@
     .cntainer{
         background-color:#172D13;
         position: relative;
-        
+        height: 100%;
        overflow: scroll;
     }
+    @media((max-width:1200px)) and (min-width:700px){
+        .cntainer{
+            overflow: scroll;
+            width: 100%;
+          
+      
     
+           
+        }
+        
+        
+        
+        }
     
     
     }

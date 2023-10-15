@@ -122,8 +122,8 @@ width: 25%;
 
 }
 .nodebt{
-    transition: ease-in-out 1s;
-    transform: translatex(1500%);
+    transition: ease-in-out 0.7s;
+    transform: translatex(11500%);
     position: absolute;
 }
 

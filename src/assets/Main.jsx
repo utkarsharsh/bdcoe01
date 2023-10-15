@@ -2,6 +2,7 @@ import Grup from './grup';
 import './main.css'
 import Main2 from './Main2';
 import {useState} from 'react'
+import { Link } from 'react-router-dom';
 
 function Main(prop){
 const [toggle1,settogle1]=useState(false);
@@ -90,7 +91,8 @@ setm((pre,index)=>{ return[...[{name:inputtext,id:index}],
 
    {group.map((a)=>{
     return(
-        <Grup name={a.name} key={a.id} />
+      <Link to="/LAA" style={{display:"flex", width: "100%",textDecoration:"none"
+    }}> <Grup name={a.name} key={a.id} /> </Link> 
     )
 
    })}
