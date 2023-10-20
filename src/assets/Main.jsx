@@ -1,4 +1,4 @@
-import Grup from './grup';
+import Grup from './Grup.jsx';
 import './main.css'
 import Main2 from './Main2';
 import {useEffect, useState} from 'react'
