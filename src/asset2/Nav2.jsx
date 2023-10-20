@@ -8,7 +8,7 @@ function Nav2() {
     <>
     <div className="head1">
 <div className="logo" style={{color:"white"}}>
-    <img src="./public/04-removebg-preview.png" className="image1"></img>
+    <img src="src/assets/04-removebg-preview.png" className="image1"></img>
 </div>
 <div className="nav1" style={{color:"white"}}>
     <p>MONEY TALK</p>
