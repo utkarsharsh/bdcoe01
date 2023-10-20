@@ -1,7 +1,7 @@
 import Grup from './grup';
 import './main.css'
 import Main2 from './Main2';
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom';
 
 function Main(prop){
@@ -9,6 +9,12 @@ const [toggle1,settogle1]=useState(false);
 const [toggle2,settogle2]=useState(true);
 const [inputtext,setinputtext]=useState("");
 const [group,setm]=useState([]);
+let a=Math.random()
+const [practicekey,setpracticekey]=useState(a);
+
+
+
+
 function skt(e){
     const p=e.target.value;
     setinputtext(p);
@@ -21,7 +27,7 @@ function skt(e){
 return(<>
 <div className="container" >
 
-<Main2 setm={setm}/>
+<Main2 />
 
 
 
@@ -52,7 +58,8 @@ alignItems:"center",justifyContent:"center",marginBottom:"5px"}}><h1>Create your
         alignItems:"center",
         justifyContent:"center",
         marginTop:"4px"
-    }} onClick={()=>{
+    }} 
+    onClick={()=>{
         settogle1(false);
         settogle2(true);
        
@@ -63,6 +70,11 @@ setm((pre,index)=>{ return[...[{name:inputtext,id:index}],
     prop.q1((pre,index)=>{ return[...[{name:inputtext,id:index}],
     ...pre]});
     console.log(prop.q);
+    useEffect(()=>{
+localStorage.setItem('kk',)
+
+
+    },[inputtext])
     
     
     }}>
@@ -92,7 +104,7 @@ setm((pre,index)=>{ return[...[{name:inputtext,id:index}],
    {group.map((a)=>{
     return(
       <Link to="/LAA" style={{display:"flex", width: "100%",textDecoration:"none"
-    }}> <Grup name={a.name} key={a.id} /> </Link> 
+    }}> <Grup name={a.name} key={practicekey} /> </Link> 
     )
 
    })}

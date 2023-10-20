@@ -1,12 +1,13 @@
 .hisab
 {
-    background-color: white;
+    
    display: flex;
     
     display: flex;
     flex-direction: column;
 justify-content: center;
 align-items: center;
+
 
 
 }
@@ -17,7 +18,7 @@ align-items: center;
     height: 34px;
 border-style: none;
 
-background-color:#172D13;
+background-color:#618264;
     margin-top: 9px;
     color: white;
     display: flex;
@@ -37,8 +38,9 @@ background-color:#172D13;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- background-color: #6BB77B;
+ background-color: #618264;
    margin: auto;
+   margin-top: 12px;
     width: 264px;
     height: 200px;
     border-radius: 8px;
@@ -134,7 +136,7 @@ width: 25%;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- background-color: #6BB77B;
+ 
    margin-top: 3px;
 }
 @media(max-width:550px){
